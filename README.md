@@ -55,7 +55,7 @@ cd <repo>
 ```bash
 cd server
 npm install
-npm run dev            # or `node src/index.js` depending on your scripts
+node index.js
 ```
 
 4. Frontend
