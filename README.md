@@ -53,7 +53,7 @@ cd <repo>
 3. Backend
 
 ```bash
-cd backend
+cd server
 npm install
 npm run dev            # or `node src/index.js` depending on your scripts
 ```
@@ -61,7 +61,7 @@ npm run dev            # or `node src/index.js` depending on your scripts
 4. Frontend
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 ```
