@@ -22,15 +22,6 @@ app.use('/auth',authRouter);
 app.use('/api',emergencyRouter);
 app.use('/get',feedbackRouter);
 
-
-
-
-
-
-
-
-
-
 app.listen(process.env.PORT, (req,res) => {
     console.log(`Server is running successfully on the port ${process.env.PORT}`);
 })
