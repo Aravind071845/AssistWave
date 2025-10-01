@@ -52,8 +52,4 @@ npm run dev
 * Manual: Use the UI to register, login, update profile, trigger review submissions.
 * Automated: Add tests with your preferred testing library (React Testing Library / Jest).
 
-### Deployment
-
-* Build the app (`npm run build`)
-
 ---
