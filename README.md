@@ -34,9 +34,9 @@ The web app also displays product usage simulation and allows users to rate the 
 
 ```
 / (repo root)
-  /frontend   -> React app 
-  /backend    -> Express app 
-  README.md   -> Root README (this file)
+  /client     -> React app 
+  /server     -> Express app 
+  README.md
 ```
 
 ## Quickstart (dev)
