@@ -22,7 +22,7 @@ The backend provides REST endpoints for: user signup/login (local and Google OAu
 ### Installation
 
 ```bash
-cd backend
+cd server
 npm install
 cp .env.example .env   # fill values
 ```

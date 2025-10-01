@@ -23,7 +23,7 @@ The frontend provides the user-facing UI for registration, login, dashboard, pro
 1. Install dependencies
 
 ```bash
-cd frontend
+cd client
 npm install
 ```
 
