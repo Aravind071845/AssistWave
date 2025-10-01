@@ -78,16 +78,14 @@ CREATE TABLE reviews (
 ### Running the server (dev)
 
 ```bash
-npm run dev   # or node src/index.js depending on scripts
+node index.js
 ```
 
 
 ### Security & best practices
 
-* **Never commit `.env`** or secrets to VCS. Use a secret store in production (AWS Secrets Manager, GCP Secret Manager, Vault).
+* **Never commit `.env`**
 * **Rotate compromised secrets** immediately.
-* Use a production-ready session store (Redis or connect-pg-simple) instead of the default MemoryStore.
-* Set cookies with `httpOnly: true`, `secure: true` (in production) and `sameSite` appropriately.
 * Limit CORS to the required origin(s) and enable `credentials: true`.
 * Apply rate limiting to authentication endpoints (e.g. `express-rate-limit`).
 * Validate and sanitize all incoming payloads.
